@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<select id="cars" name="cars" size="3" multiple>
+	<option value="volvo">volvo</option>
+	<option value="bmw">Bmw</option>
+	<option value="benz">Benz</option>
+	<option value="ranger" selected="">Range Rover</option>
+</select>
+<textarea name="message" rows="10" cols="30">the cat was playing inthe garden</textarea>
+<button type="button" onclick="alert('hello world!')"> click me!</button>
+<form action="/action_page.php">
+	<fieldset>
+		<legend>personalia:</legend>
+		<label for="fname">first name:</label><br>
+		<input type="text" id="fname" name="fname" value="john" required=""><br>
+		<label for="lname">last name:</label><br>
+		<input type="text" id="lname" name="lname"
+		value="Doe"><br><br>
+		<input type="submit" value="submit">
+	</fieldset>
+</form>
+<form action="/action_page.php">
+	<input list="browsers">
+	<datalist id="browsers">
+		<option value="internet explorer"> 
+			<option value="firefox">
+				<option value="chrome">
+					<option value="safari">
+					</option>
+				</option>
+			</option>
+		</option>
+	</datalist>
+</form>
+<form action="/action_page.php">
+	<label for="fname">first name:</label><br>
+	<input type="text" id="fname" name="fname" value="john" readonly=""><br>
+	<label for="lname">last name:</label><br>
+	<input type="text" id="lname" name="lname" value="Doe "size="50" maxlength="6"><br><br>
+    <input type="submit" value="submit">
+    <input type="reset" name="">
+</body>
+</html>

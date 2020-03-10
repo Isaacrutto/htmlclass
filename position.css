@@ -1,0 +1,11 @@
+img{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+#abc{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    float: right;
+}

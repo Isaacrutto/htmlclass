@@ -1,0 +1,40 @@
+body{
+    font-family: Helvetica;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template: repeat(3,1fr) /repeat(4, 1fr);
+    grid-template-areas:
+      "h h h h"
+      "a b b c"
+      "f f f f"
+
+;
+    grid-gap: 10px;
+}
+
+header{
+    grid-area: h;
+    background-color: black;
+}
+
+section#a{
+    grid-area: a;
+    background-color: black;
+
+}
+
+section#b{
+    grid-area: b;
+    background-color: black;
+}
+
+
+footer{
+    grid-area: f;
+    background-color: black;
+}

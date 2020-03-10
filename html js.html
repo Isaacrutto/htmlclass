@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>my first java script</h1>
+
+<button type="button"
+        onclick="document.getElementById('demo').innerHTML= Date()">
+    click me to display date and time.</button>
+<a id="demo" href="index.html"></a>
+<script>
+  function myfunction() {
+      document.getElementById("demo").style.fontSize="25px";
+      document.getElementById("demo").style.color="red";
+      document.getElementById("demo").style.backgroundColor="yellow";
+
+  }
+
+
+</script>
+<button type="button" onclick="myfunction()">click me!</button>
+</body>
+</html>
